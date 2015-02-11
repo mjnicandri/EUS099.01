@@ -1,31 +1,139 @@
 var geoJson = [{
   "type": "FeatureCollection",
-  "features": [
-    {
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "title": "Brandenburg Gate",
+      "marker-size": "medium",
+      "marker-color": "#3366FF",
+      "marker-symbol": "star-stroked",
+      "images": [
+        ['<img src="images/Brandenburger_Tor_abends.jpg" />',
+          "The Brandenburg Gate."
+        ],
+        ['<img src="images/Brandenburger2.jpg" />',
+          "The Brandengurb Gate quadriga at night."
+        ]
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.377674",
+        "52.516224"
+       ]
+     }
+   },{
+     "type": "Feature",
+     "properties": {
+       "title": "Brandenburg Gate",
+       "marker-size": "medium",
+       "marker-color": "#3366FF",
+       "marker-symbol": "star-stroked",
+       "images": [
+         ['<img src="images/Brandenburger_Tor_abends.jpg" />',
+           "The Brandenburg Gate."
+         ],
+         ['<img src="images/Brandenburger2.jpg" />',
+           "The Brandengurb Gate quadriga at night."
+         ]
+       ]
+     },
+     "geometry": {
+       "type": "Point",
+       "coordinates": [
+         "13.377674",
+         "52.516224"
+        ]
+      }
+    },{
+     "type": "Feature",
+     "properties": {
+       "title": "Berlin Victory Column",
+       "marker-size": "medium",
+       "marker-color": "#3366FF",
+       "marker-symbol": "star-stroked",
+       "images": [
+         ['<img src="images/9765829784_2327678939_q.jpg" />',
+           "Berlin Victory Column."
+         ]
+       ]
+     },
+     "geometry": {
+       "type": "Point",
+       "coordinates": [
+         "13.35000",
+         "52.5144"
+        ]
+      }
+    },{
+     "type": "Feature",
+     "properties": {
+       "title": "Charlottenburg Palace",
+       "marker-size": "medium",
+       "marker-color": "#3366FF",
+       "marker-symbol": "star-stroked",
+       "images": [
+         ['<img src="images/14545650267_185479c29b_q.jpg" />',
+           "Charlottenburg Palace by Berlin Global."
+         ],
+         [
+           '<iframe width="180"  src="http://www.youtube.com/embed/EHKCG2uvedU" frameborder="0" allowfullscreen></iframe>',
+           "Schloss Charlottenburg."
+         ],
+         [
+           '<iframe width="180"  src="http://www.youtube.com/embed/3WvKhOTfH00" frameborder="0" allowfullscreen></iframe>',
+           "A tour of the Reichstag building."
+         ]
+       ]
+     },
+     "geometry": {
+       "type": "Point",
+       "coordinates": [
+         "13.295833",
+         "52.521111"
+        ]
+      }
+    },{
       "type": "Feature",
       "properties": {
-        "title": "Brandenburg Gate",
-		"marker-size": "medium",
-	"marker-color": "#3366FF",
-	"marker-symbol": "star-stroked",
-	"images":[[ "images/Brandenburger_Tor_abends.jpg", "The Brandenburg Gate."],[ "images/Brandenburger2.jpg", "The Brandengurb Gate quadriga at night."]]},
+        "title": "The Oberbaum Bridge",
+        "marker-size": "medium",
+        "marker-color": "#3366FF",
+        "marker-symbol": "star-stroked",
+        "images": [
+          ['<img src="images/7605057628_fe3c123e07_q.jpg" />',
+            "Berlin Night III by Alexander Steinhof."
+          ],
+          ['<img src="images/11650707945_7c84e36fe2_q.jpg" />',
+            "Oberbaum Bridge."
+          ]
+        ]
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "13.377674",
-          "52.516224"
+          "13.44535",
+          "52.501736"
         ]
       }
-      }
-    ,
-    {
+    },{
       "type": "Feature",
       "properties": {
-        "title": “Koeningsplatz”,
+        "title": "Koeningsplatz",
         "marker-size": "medium",
-	"marker-color": "#e5c278",
-	"marker-symbol": "star-stroked",
-	"images":[["images/1280px-Königsplatz_Berlin,_um_1880.jpg", "The Königsplatz with the Raczyński Palace in 1880."],["images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg", "The Reichstag building."]]
+        "marker-color": "#e5c278",
+        "marker-symbol": "star-stroked",
+        "images": [
+          [
+            '<iframe width="180"  src="http://www.youtube.com/embed/cklBBshc_uQ?rel=0" frameborder="0" allowfullscreen></iframe>',
+            "A tour of the Reichstag building."
+          ],
+          [
+            '<img src="images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg" />',
+            "The Reichstag building."
+          ]
+        ]
       },
       "geometry": {
         "type": "Point",
@@ -34,6 +142,5 @@ var geoJson = [{
           "52.517539"
         ]
       }
-    },
-  ]
-  }];
+      }, ]
+      }];
